@@ -9,11 +9,10 @@
 
 :root{
   --color1: #000E2E;
-  --color2: #64B6AC;
-  --color3: #C0FDFB;
-  --color4: #090C08;
-  --color5: #F55D3E;
-  --color6: #FF0022;
+  --color2: #262626;
+  --color3: #255C99;
+  --color4: #F06543;
+  --color5: #E8E9EB;
 
   --font-default: Switzer;
   --font-semibold: Switzer-Semibold;
@@ -22,6 +21,6 @@
 
 .App{
   height: 100vh;
-  background-color: #fff;
+  background-color: var(--color5);
   font-family: var(--font-default);
 }
