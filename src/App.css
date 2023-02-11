@@ -1,72 +1,27 @@
-.App{
-  height: 100vh;
-  background-color: #fff;
-  font-family: var(--font-default);
+@font-face {
+  font-family: Switzer;
+  src: url(./Fonts/Switzer-Regular.ttf)
+}
+@font-face {
+  font-family: Switzer-Semibold;
+  src: url(./Fonts/Switzer-Semibold.ttf)
 }
 
 :root{
-  --color1: #456d82;
+  --color1: #000E2E;
   --color2: #64B6AC;
   --color3: #C0FDFB;
   --color4: #090C08;
   --color5: #F55D3E;
   --color6: #FF0022;
 
-  --font-default: Zodiak-Regular;
-  --font-bold: Zodiak-Bold;
-  --font-extra-bold: Zodiak-Extrabold;
+  --font-default: Switzer;
+  --font-semibold: Switzer-Semibold;
+
 }
 
-
-/**
- * @license
- *
- * Font Family: Zodiak
- * Designed by: Jérémie Hornus, Gaetan Baehr, Jean-Baptiste Morizot, Alisa Nowak, Theo Guillard
- * URL: https://www.fontshare.com/fonts/zodiak
- * © 2023 Indian Type Foundry
- *
- * Font Styles:
- * Zodiak Variable(Variable font)
- * Zodiak Variable Italic(Variable font)
- * Zodiak Thin
- * Zodiak Thin Italic
- * Zodiak Light
- * Zodiak Light Italic
- * Zodiak Regular
- * Zodiak Italic
- * Zodiak Bold
- * Zodiak Bold Italic
- * Zodiak Extrabold         
- * Zodiak Extrabold Italic
- * Zodiak Black
- * Zodiak Black Italic
- *
-*/
-
-
-/**
-* This is a variable font
-* You can controll variable axes as shown below:
-* font-variation-settings: 'wght' 900.0;
-*
-* available axes:
-
-* 'wght' (range from 100.0 to 900.0)
-
-*/
-
-@font-face {
-  font-family: Zodiak-Regular;
-  src: url(./Fonts/Zodiak-Regular.ttf);
-}
-
-@font-face {
-  font-family: Zodiak-Bold;
-  src: url(./Fonts/Zodiak-Bold.ttf);
-}
-
-@font-face {
-  font-family: Zodiak-Extrabold;
-  src: url(./Fonts/Zodiak-Extrabold.ttf);
+.App{
+  height: 100vh;
+  background-color: #fff;
+  font-family: var(--font-default);
 }
