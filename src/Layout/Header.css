@@ -1,0 +1,103 @@
+
+@media only screen and (min-width: 1024px){
+    header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    background-color: var(--color1);
+    height: 13%;
+    color: #fff;
+    }
+
+    h1{
+    font-family: var(--font-bold);
+    }
+
+    .logo-vsb{
+        margin-left: 7%;
+    }
+
+    .nav-header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-header > a{
+        text-decoration: none;
+        color: #fff;
+        margin-left: 3%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .nav-header > a::before{
+        content: "   ";
+        position: absolute;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        width: 0%;
+        transition: 0.5s ease-in-out;
+    }
+
+    .nav-header > a:hover::before{
+        width: 105%;
+    }
+
+}
+
+
+@media only screen and (max-width: 915px){
+
+    header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--color1);
+    height: 20%;
+    color: #fff;
+    }
+
+    h1{
+    font-family: var(--font-bold);
+    }
+
+    .logo-vsb{
+        margin-top: 2%;
+    }
+
+    .nav-header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-header > a{
+        text-decoration: none;
+        color: #fff;
+        margin-left: 3%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .nav-header > a::before{
+        content: "   ";
+        position: absolute;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        width: 0%;
+        transition: 0.5s ease-in-out;
+    }
+
+    .nav-header > a:hover::before{
+        width: 105%;
+    }
+
+}
