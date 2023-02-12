@@ -1,15 +1,15 @@
 
+/*Pc e Notebook*/
 @media only screen and (min-width: 1024px){
     header{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    background-color: var(--color1);
-    height: fit-content;
-    color: var(--color5);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        background-color: var(--color1);
+        height: fit-content;
+        color: var(--color5);
     }
-
     .logo-vsb{
         display: flex;
         align-items: center;
@@ -17,13 +17,10 @@
         height: 100px;
         width: 275px;
     }
-
-
     .nav-header{
         margin-left: 80px;
         width: 100%;
     }
-
     .nav-header > a{
         text-decoration: none;
         color: var(--color5);
@@ -49,18 +46,19 @@
 
 }
 
-
+/*Celulares*/
 @media (min-width: 312px) and (max-width: 415px){
 
     header{
-    width: 101%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: var(--color1);
-    height: fit-content;
-    color: #fff;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: var(--color1);
+        height: fit-content;
+        color: #fff;
+        padding-bottom: 10px;
     }
 
     .logo-vsb{
@@ -101,26 +99,27 @@
 
 }
 
+/*Tablets*/
 @media (min-width: 420px )and (max-width: 1000px){
 
     header{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: var(--color1);
-    height: fit-content;
-    color: #fff;
-    padding-bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: var(--color1);
+        height: fit-content;
+        color: #fff;
+        padding-bottom: 10px;
     }
 
     .logo-vsb{
         display: flex;
         justify-content: center;
         margin-top: 3%;
-        height: 120px;
-        width: 350px;
+        height: 140px;
+        width: 400px;
     }
 
 
@@ -129,7 +128,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .nav-header > a{
