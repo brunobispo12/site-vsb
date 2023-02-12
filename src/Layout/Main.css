@@ -1,11 +1,12 @@
-@keyframes Fadein {
-    from { left: -100%;}
-    to { left: 0;}
-}
-
 
 /*PC e Notebook*/
 @media screen and (min-width: 1024px) {
+
+    @keyframes Fadein {
+        from { left: -100%;}
+        to { left: 0;}
+    }
+
     main{
         width: 100%;
         height: 82.59vh;
@@ -69,6 +70,12 @@
 
 /*Celular*/
 @media screen and (min-width: 312px) and (max-width: 415px) {
+
+    @keyframes Fadein {
+        from { left: -125%;}
+        to { left: 0;}
+    } 
+
     main{
         width: 100%;
         background-color: red;
