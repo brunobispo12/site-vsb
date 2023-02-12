@@ -1,5 +1,5 @@
 @keyframes Fadein {
-    from { left: -50%;}
+    from { left: -100%;}
     to { left: 0;}
 }
 
@@ -83,6 +83,9 @@
         gap: 20px;
         justify-content: center;
         width: 100%;
+        animation-name: Fadein;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
     }
 
     .VSB-Home h1{
@@ -129,6 +132,9 @@
         gap: 20px;
         justify-content: center;
         width: 100%;
+        animation-name: Fadein;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
     }
 
     .VSB-Home h1{
