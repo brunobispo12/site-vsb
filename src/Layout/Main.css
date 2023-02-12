@@ -3,8 +3,17 @@
 @media screen and (min-width: 1024px) {
 
     @keyframes Fadein {
-        from { left: -100%;}
-        to { left: 0;}
+        0%{ 
+            left: -100%;
+            opacity: 0%;
+        }
+        50%{ 
+            opacity: 25%;
+        }
+        100%{
+            left: 0;
+            opacity: 100%;
+        }
     }
 
     main{
@@ -22,7 +31,7 @@
         gap: 10%;
         width: 100%;
         animation-name: Fadein;
-        animation-duration: 3s;
+        animation-duration: 2.5s;
         animation-iteration-count: 1;
     }
 
@@ -72,9 +81,18 @@
 @media screen and (min-width: 312px) and (max-width: 415px) {
 
     @keyframes Fadein {
-        from { left: -125%;}
-        to { left: 0;}
-    } 
+        0%{ 
+            left: -100%;
+            opacity: 0%;
+        }
+        50%{ 
+            opacity: 25%;
+        }
+        100%{
+            left: 0;
+            opacity: 100%;
+        }
+    }
 
     main{
         width: 100%;
@@ -91,7 +109,7 @@
         justify-content: center;
         width: 100%;
         animation-name: Fadein;
-        animation-duration: 1s;
+        animation-duration: 2s;
         animation-iteration-count: 1;
     }
 
@@ -124,6 +142,17 @@
 /*Tablets*/
 @media (min-width: 420px )and (max-width: 1000px){
 
+    @keyframes Fadein {
+        from { 
+            left: -125%;
+            opacity: 0%;
+        }
+        to { 
+            left: 0;
+            opacity: 100%;
+        }
+    }
+
     main{
         width: 100%;
         height: 100vh;
@@ -140,7 +169,7 @@
         justify-content: center;
         width: 100%;
         animation-name: Fadein;
-        animation-duration: 3s;
+        animation-duration: 2s;
         animation-iteration-count: 1;
     }
 
