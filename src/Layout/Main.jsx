@@ -29,8 +29,10 @@ const Main = () =>{
                     <div className="image">
                         <img src={LogoAC} alt="" />
                     </div>
-
                 </div>
+            </section>
+            <section className="Catalog">
+                
             </section>
         </main>
     )

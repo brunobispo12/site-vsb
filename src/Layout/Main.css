@@ -1,3 +1,8 @@
+@keyframes Fadein {
+    from { left: -50%;}
+    to { left: 0;}
+}
+
 
 /*PC e Notebook*/
 @media screen and (min-width: 1024px) {
@@ -15,6 +20,13 @@
         justify-content: center;
         gap: 10%;
         width: 100%;
+        animation-name: Fadein;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+    }
+
+    .VSB-Home h1{
+        font-family: var(--font-bold);
     }
 
     .VSB-Home p{
