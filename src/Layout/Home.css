@@ -171,7 +171,7 @@
         padding: 15px;
         display: grid;
         gap: 5% 0px;
-        grid-template-columns: repeat(3, 255px);
+        grid-template-columns: repeat(3, 210px);
         grid-template-rows: repeat(2, 1fr);
     }
 

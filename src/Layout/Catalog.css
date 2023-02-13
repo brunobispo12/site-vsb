@@ -51,7 +51,6 @@
     .Catalog-Conteiner{
         margin-top: 80px;
         width: 85%;
-        height: 450px;
         display: grid;
         gap: 10% 5%;
         grid-template-columns: repeat(auto, 1fr);

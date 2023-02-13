@@ -1,0 +1,125 @@
+
+@media screen and (min-width: 1024px){
+    
+    footer{
+        background-color: var(--color1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--color5);
+        padding: 10px;
+        height: 90px;
+    }
+
+    .Contatcs{
+        margin-left: 3%;
+    }
+
+    .Icon-links{
+        margin-right: 7%;
+    }
+
+    .Icon-links a{
+        margin-right: 15px;
+    }
+
+    .Contatcs h4{
+        margin-bottom: -9%;
+        width: 37%;
+        font-family: var(--font-bold);
+        border-bottom: 5px solid var(--color5);
+        border-radius: 5px;
+    }
+
+    .Contatcs h5{
+        display: inline;
+        font-family: var(--font-bold);
+    }
+    
+}
+
+@media (min-width: 312px) and (max-width: 415px){
+
+    footer{
+        margin-top: 70%;
+        background-color: var(--color1);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        color: var(--color5);
+        padding: 10px;
+        height: fit-content;
+    }
+
+    .Contatcs{
+        margin-left: 3%;
+    }
+
+    .Icon-links{
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    .Icon-links a{
+        margin-right: 15px;
+    }
+
+    .Contatcs h4{
+        margin-bottom: -9%;
+        font-family: var(--font-bold);
+        width: 37%;
+        border-bottom: 5px solid var(--color5);
+        border-radius: 5px;
+    }
+
+    .Contatcs h5{
+        display: inline;
+        font-family: var(--font-bold);
+    }
+
+}
+
+
+@media (min-width: 420px) and (max-width: 1000px){
+
+    footer{
+        margin-top: 110%;
+        background-color: var(--color1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--color5);
+        padding: 10px;
+        height: fit-content;
+        font-size: 1.7rem;
+    }
+
+
+    .Contatcs{
+        margin-left: 3%;
+    }
+
+    .Contatcs h4{
+        margin-bottom: -9%;
+        font-family: var(--font-bold);
+        width: 37%;
+        border-bottom: 5px solid var(--color5);
+        border-radius: 5px;
+    }
+
+    .Contatcs h5{
+        display: inline;
+        font-family: var(--font-bold);
+        font-size: 1.6rem;
+    }
+
+    .Icon-links{
+        margin-right: 7%;
+    }
+
+    .Icon-links a{
+        margin-right: 15px;
+    }
+
+
+}
