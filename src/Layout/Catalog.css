@@ -1,5 +1,5 @@
 
-
+/* PC */
 @media screen and (min-width: 1024px) {
   
     .Catalog{
@@ -38,7 +38,7 @@
 
 }
 
-
+/* Celular*/
 @media screen and (min-width: 312px) and (max-width: 415px) {
 
     .Catalog{
@@ -76,6 +76,7 @@
 
 }
 
+/* Tablets */
 @media (min-width: 420px )and (max-width: 1000px){
     .Catalog{
         margin-top: 13%;
