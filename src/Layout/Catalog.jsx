@@ -9,7 +9,7 @@ import CatalogItem from '../Components/CatalogItem.jsx'
 
 const Main = () =>{
     return(
-        <section className="Catalog">
+        <section className="Catalog" id="Catalog">
             <h2>Catálagos</h2>
             <div className="Catalog-Conteiner">
                 <CatalogItem title="Berwanger" image={LogoBerwanger} link="https://drive.google.com/file/d/1rsGki42gGqGOEtvj4h0oNGgdvFxqW_-j/view?usp=sharing"/>

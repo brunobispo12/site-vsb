@@ -8,7 +8,7 @@ import GmailIco from '../Images/bxl-gmail.png';
 ;
 const Footer = () =>{
     return(
-        <footer className="footer">
+        <footer className="footer" id="Contacts">
             <div className="Contatcs">
                 <h4>Contatos</h4><br/>
                 <p><h5>Email:</h5> vsbrepre@gmail.com</p>
