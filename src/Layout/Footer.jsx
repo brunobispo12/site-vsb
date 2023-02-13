@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import './Footer.css'
-import WhatsAppIco from '../Images/bxl-whatsapp-square.png';
+import WhatsAppIco from '../Images/bxl-whatsapp.png';
 import InstagramIco from '../Images/bxl-instagram.png';
 import GmailIco from '../Images/bxl-gmail.png';
 ;
