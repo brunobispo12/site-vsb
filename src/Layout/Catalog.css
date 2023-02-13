@@ -1,0 +1,114 @@
+
+
+@media screen and (min-width: 1024px) {
+  
+    .Catalog{
+        margin-top: 13%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Catalog-Conteiner{
+        margin-top: 80px;
+        width: 85%;
+        height: 450px;
+        display: grid;
+        gap: 10% 5%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 150px 150px;
+    }
+
+    .Catalog-Item{
+        border: 2px solid var(--color1);
+        border-radius: 10px;
+        height: 150px;
+        position: relative;
+    }
+
+    h2{
+        position: absolute;
+        font-size: 2rem;
+        color: var(--color1);
+        font-family: var(--font-bold);
+        height: fit-content;
+        border-bottom: 5px solid var(--color1);
+        border-radius: 5px;
+    }
+
+}
+
+
+@media screen and (min-width: 312px) and (max-width: 415px) {
+
+    .Catalog{
+        margin-top: 13%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Catalog-Conteiner{
+        margin-top: 80px;
+        width: 85%;
+        height: 450px;
+        display: grid;
+        gap: 10% 5%;
+        grid-template-columns: repeat(auto, 1fr);
+        grid-template-rows: 150px 150px;
+    }
+
+    .Catalog-Item{
+        border: 2px solid var(--color1);
+        border-radius: 10px;
+        height: 150px;
+        position: relative;
+    }
+
+    h2{
+        position: absolute;
+        font-size: 2rem;
+        color: var(--color1);
+        font-family: var(--font-bold);
+        height: fit-content;
+        border-bottom: 5px solid var(--color1);
+        border-radius: 5px;
+    }
+
+}
+
+@media (min-width: 420px )and (max-width: 1000px){
+    .Catalog{
+        margin-top: 13%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Catalog-Conteiner{
+        margin-top: 80px;
+        width: 85%;
+        height: 450px;
+        display: grid;
+        gap: 10% 5%;
+        grid-template-columns: repeat(auto, 1fr);
+        grid-template-rows: 200px 200px;
+    }
+
+    .Catalog-Item{
+        border: 2px solid var(--color1);
+        border-radius: 10px;
+        height: 200px;
+        position: relative;
+    }
+
+    h2{
+        position: absolute;
+        font-size: 2rem;
+        color: var(--color1);
+        font-family: var(--font-bold);
+        height: fit-content;
+        border-bottom: 5px solid var(--color1);
+        border-radius: 5px;
+    }
+}
