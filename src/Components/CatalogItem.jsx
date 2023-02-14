@@ -7,12 +7,12 @@ const CatalogItem = (props) =>{
         <div>
             <div className="Catalog-Item">
                 <div className="Image-Catalog">
-                    <img src={props.image} alt="" />
+                    <img src={props.image} alt="Logo-Empresas" />
                 </div>
                 <div className="Desc-Item">
                     <h3>{props.title}</h3>
                     <a href={props.link} target="_blank" rel="noreferrer">Ver Catálogo 
-                    <img className="icon-link" src={LinkIcon} alt=""/></a>
+                    <img className="icon-link" src={LinkIcon} alt="Icon link externo"/></a>
                 </div>
             </div>
         </div>

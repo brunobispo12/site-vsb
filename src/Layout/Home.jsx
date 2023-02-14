@@ -18,16 +18,16 @@ const Main = () =>{
                     </div>
                     <div className="About-Images">
                         <div className="principal">
-                            <img src={LogoBerwanger} alt="" />
+                            <img src={LogoBerwanger} alt="Logo empresa berwanger" />
                         </div>
                         <div className="image redes">
-                            <img src={LogoRedes} alt="" />
+                            <img src={LogoRedes} alt="Logo empresa Redescore" />
                         </div>
                         <div className="image">
-                            <img src={LogoFloresta} alt="" />
+                            <img src={LogoFloresta} alt="Logo empresa Floresta" />
                         </div>
                         <div className="image">
-                            <img src={LogoAC} alt="" />
+                            <img src={LogoAC} alt="Logo empresa AC madeiras" />
                         </div>
                     </div>
                 </div>
